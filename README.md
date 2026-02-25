@@ -3,7 +3,7 @@ Dynamic form generator to integrate with Vue Web Apps
 
 
 
-INSTALATION
+INSTALLATION
 
 To use this Dynamic Form Generator you need to integrate with Vue Web App in main.js for example as Global Component
 
