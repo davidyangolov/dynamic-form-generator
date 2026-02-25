@@ -6,12 +6,11 @@ To use this Dynamic Form Generator you need to integrate with Vue Web App in mai
 Then you can use whatever you want by writing this code for example:
 
 
-
+```javascript
 <FormGenerator 
 :fields="fields"
 :actions="actions"
 >
-
 <script>
 	actions: {},
 				fields: [
@@ -57,8 +56,13 @@ Then you can use whatever you want by writing this code for example:
 				this.result = null;
 			},
 		},
-  
+
+``` 
 NOTE
-If you dont have to change label or placeholder you could write like 
-fields: ["email", "password", ...] and fields will be taken from file form.array.js as Default values
+
+If you dont have to change label or placeholder you could write like this
+```javascript
+fields: ["email", "password", ...]
+```
+and fields will be taken from file form.array.js as Default values
 
