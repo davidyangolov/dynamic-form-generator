@@ -1,4 +1,5 @@
 const defaultFields = {
+	
 	text: {
 		type: "text",
 		name: "text",
