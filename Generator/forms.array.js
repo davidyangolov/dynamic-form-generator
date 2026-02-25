@@ -12,7 +12,6 @@ const defaultFields = {
 		id: "email",
 		placeholder: "Введите email",
 		required: true,
-		// pattern: "^[w-.]+@([w-]+.)+[w-]{2,4}$",
 	},
 
 	password: {
