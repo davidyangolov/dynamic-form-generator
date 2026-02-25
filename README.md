@@ -1,7 +1,19 @@
 # dynamic-form-generator
 Dynamic form generator to integrate with Vue Web Apps
 
+
+
+INSTALATION
+
 To use this Dynamic Form Generator you need to integrate with Vue Web App in main.js for example as Global Component
+
+```javascript
+import FormGenerator from '@/components/FormGenerator.vue';
+
+const app = createApp(App);
+app.component('FormGenerator', FormGenerator);
+
+```
 
 Then you can use whatever you want by writing this code for example:
 
